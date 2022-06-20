@@ -1,0 +1,9 @@
+<library path="lib/libcaster_wheel_controller">
+
+  <class name="caster_wheel_controller/CasterWheelController" type="caster_wheel_controller::CasterWheelController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The CasterWheelController tracks velocity commands. It expects 4 VelocityJointInterface type and 4 PositionJointInterface type of hardware interfaces.
+    </description>
+  </class>
+
+</library>

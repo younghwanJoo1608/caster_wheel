@@ -1,0 +1,23 @@
+<package format="2">
+  <name>caster_wheel_controller</name>
+  <version>0.17.0</version>
+  <description>Controller for a caster wheel mobile base.</description>
+  <maintainer email="jyh970@g.skku.edu">jyh</maintainer>
+  <author email="jyh970@g.skku.edu">jyh</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>controller_interface</depend>
+  <depend>nav_msgs</depend>
+  <depend>caster_wheel_msgs</depend>
+  <depend>realtime_tools</depend>
+  <depend>tf</depend>
+  <depend>urdf_geometry_parser</depend>
+  <depend>pluginlib</depend>
+
+  <export>
+    <controller_interface plugin="${prefix}/caster_wheel_controller_plugins.xml"/>
+  </export>
+</package>
